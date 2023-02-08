@@ -1,0 +1,205 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+.headerlogo{
+width: 100%;
+max-width: 1400px;
+    margin: 20px;
+padding-left: 15px;
+padding-right: 15px;    
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.nav{
+list-style-type: none;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+}
+.nav>li{
+margin-left: 15px;
+padding-right: 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+}
+
+.nav_btn-1{
+background-color: #FFFFFF;
+border-radius: 8px;
+padding: 15px 25px;
+color: #173A56;
+border-width: -2px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+text-shadow: none;
+border: 1px solid #BCD0E5;
+}
+.nav_btn-2{
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 8px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-shadow: none;
+    
+}
+
+
+.heading{
+width: 1126px;
+height: 496px;
+left: 145px;
+top: 128px;
+margin: 20px;
+padding-left: 15px;
+padding-right: 15px; 
+}
+
+
+.Headerimg{
+    position: absolute;
+    width: 605px;
+    height: 496px;
+    left: 666px;
+    top: 128px;
+}
+
+
+
+.textheader{
+    position: absolute;
+    width: 458px;
+    height: 95px;
+    left: 145px;
+    top: 349px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+}
+
+
+.button-1{
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 8px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-shadow: none;
+    margin-left: 50px;
+
+}
+.button-2{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 25px;
+    color: #173A56;
+    border-width: -2px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-shadow: none;
+    border: 1px solid #BCD0E5;
+}
+.thedesign{
+width: 518px;
+text-align: start;
+justify-content: flex-start;
+height: 108px;
+font-size: 44px;
+color: #2F281E;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+}
+
+.toolstext{
+width: 458px;
+height: 95px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #544837;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+
+}
+
+.image{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 10px;
+    
+}
+
+.centered{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+
+}
+
+
+.container2{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-around;
+width: 1110px;
+height: 574px;
+left: 145px;
+top: 1397px;
+}
+
+.redshirt{
+}
+
+.text-effortless{
+width: 486px;
+height: 531px;
+left: 145px;
+top: 1423px;
+}
+
+
