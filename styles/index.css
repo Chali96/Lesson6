@@ -1,35 +1,44 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-
+    
 }
-.headerlogo{
-width: 100%;
-max-width: 1400px;
-    margin: 20px;
-padding-left: 15px;
-padding-right: 15px;    
-display: flex;
+.header{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    width: 1400px;
+    height: 78px;
+    left: 0px;
+    top: 20px;    
+}
 
+.logo{
+padding-left: 143.92px;
 }
 
 .nav{
+    text-decoration: none;
 list-style-type: none;
  display: flex;
  align-items: center;
  justify-content: flex-start;
+ padding-right: 120px;
+ padding-bottom: 5px;
+
 }
+
 .nav>li{
-margin-left: 15px;
+    list-style-type: none;
+    margin-left: 25px;
 padding-right: 5px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 28px;
 }
+
 
 .nav_btn-1{
 background-color: #FFFFFF;
@@ -42,6 +51,7 @@ font-size: 16px;
 line-height: 24px;
 text-shadow: none;
 border: 1px solid #BCD0E5;
+
 }
 .nav_btn-2{
     background-color: #FF9900;
@@ -57,22 +67,21 @@ border: 1px solid #BCD0E5;
     
 }
 
-
 .heading{
-width: 1126px;
-height: 496px;
-left: 145px;
-top: 128px;
-margin: 20px;
-padding-left: 15px;
-padding-right: 15px; 
-}
-
+    width: 1126px;
+    height: 496px;
+    left: 145px;
+    top: 128px;
+    margin: 20px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    }
 
 .Headerimg{
     position: absolute;
-    width: 605px;
-    height: 496px;
+    width: 600px;
+    height: 490px;
+    padding-right: 40px;
     left: 666px;
     top: 128px;
 }
