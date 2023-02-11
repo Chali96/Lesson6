@@ -1,46 +1,40 @@
 
 body {
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;  
 }
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    width: 1400px;
+    max-width: 1400px;
     height: 78px;
-    left: 0px;
-    top: 20px;    
 }
 
 .logo{
-padding-left: 143.92px;
+    padding-left: 143.92px;
 }
 
 .nav{
-    text-decoration: none;
-list-style-type: none;
- display: flex;
- align-items: center;
- justify-content: flex-start;
- padding-right: 180px;
- padding-bottom: 5px;
-
-}
-
-.nav>li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     list-style-type: none;
-    margin-left: 25px;
-padding-right: 5px;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 28px;
+    padding-right: 180px;
+    padding-bottom: 5px;
 }
 
+.nav>a{
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+    text-decoration: none;
+    margin-left: 35px;
+    padding-right: 25px;
+    margin: -6px;
+}
 
-.nav_btn-1{
+.btn-1{
 background-color: #FFFFFF;
 border-radius: 6px;
 padding: 12px 30px;
@@ -51,58 +45,54 @@ font-size: 16px;
 line-height: 24px;
 text-shadow: none;
 border: 1px solid #BCD0E5;
-
 }
-.nav_btn-2{
+
+.btn-2{
     background-color: #FF9900;
     border: 1px solid #FF9900;
     border-radius: 6px;
     padding: 12px 30px;
     color: #FFFFFF;
-    font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    text-shadow: none;
-    margin: -20px;
-    
+    margin: 10px;
 }
 
 .heading{
-    width: 1126px;
+    max-width: 1126px;
     height: 496px;
-    left: 145px;
-    top: 128px;
     margin: 20px;
     padding-left: 15px;
     padding-right: 15px; 
-    }
-
-.Headerimg{
-    position: absolute;
-    width: 500px;
-    height: 390px;
-padding-left: 1px;
-    left: 666px;
-    top: 128px;
 }
 
+.thedesign-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1126px;
+    height: 496px;
+}
 
+.Headerimg{
+    max-width: 500px;
+    height: 390px;
+    padding-left: 1px;
+}
 
 .textheader{
-    position: absolute;
-    width: 458px;
+    display: flex;
+    flex-direction: row;
+    max-width: 458px;
     height: 95px;
-    left: 145px;
-    top: 349px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-color: #544837;
+    color: #544837;
 }
-
 
 .button-1{
     background-color: #FF9900;
@@ -139,15 +129,15 @@ color: #544837;
 }
 
 .thedesign{
-width: 518px;
-text-align: start;
-justify-content: flex-start;
-height: 108px;
-font-size: 40px;
-color: #2F281E;
-padding-left: 100px;
-padding-top: 80px;
-line-height: 54px;
+    width: 518px;
+    text-align: start;
+    justify-content: flex-start;
+    height: 108px;
+    font-size: 40px;
+    color: #2F281E;
+    padding-left: 100px;
+    padding-top: 80px;
+    line-height: 54px;
 }
 
 .wrap{
@@ -155,14 +145,14 @@ line-height: 54px;
 }
 
 .toolstext{
-width: 458px;
-height: 95px;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-color: #544837;
-padding-left: 90px;
-padding-bottom: 9px;
+    max-width: 458px;
+    height: 95px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    padding-left: 90px;
+    padding-bottom: 9px;
 }
 
 
@@ -173,12 +163,19 @@ padding-bottom: 9px;
     padding-top: 100px;
     padding-left: 145px;
     width: 1110px;
-height: 574px;
-top: 1397px;
+    height: 574px;
 
 }
 
-.container-card{
+.wedesign{
+    margin-left: 350px;
+    max-width: 518px;
+    text-align: center;
+    padding: 100px;
+    font-size: 26px;
+    color: #2F281E;
+}
+.card-icons{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,8 +185,7 @@ top: 1397px;
     padding-right: 50px;
     padding-right: 50px;
     margin-left: 570px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 50px;
     background-color: #FF9900;
     border: 1px solid #FF9900;
     border-radius: 6px;
@@ -198,112 +194,117 @@ top: 1397px;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    text-shadow: none;
-   
-    
-
+    text-shadow: none; 
 }
 
 .centered{
+    max-width: 518px;
     padding: 100px;
-    justify-content: center;
     height: 108px;
-left: 38.22%;
-right: 37.4%;
-font-weight: 700;
-font-size: 36px;
-line-height: 54px;
-text-align: center;
-
-color: #2F281E;
-
-
+    font-size: 26px;
+    text-align: center;
+    color: #2F281E;
 }
-
 
 .container2{
     display: flex;
-justify-content: center;
-justify-content: space-around;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 70px;
 }
 
-
 .text-effortless{
-width: 486px;
-height: 531px;
-left: 145px;
-top: 1423px;
+    max-width: 486px;
+    height: 531px;
+    left: 145px;
 }
 
 .Product-managers{
     display: flex;
+    align-items: center;  
     justify-content: center;
-    justify-content: space-around;
-    width: 1110px;
-    height: 574px;
-    left: 145px;
-    top: 1397px;
+    margin: 10px;
 }
 
 .Leftside-img{
-    width: 535px;
-height: 521px;
-left: 144px;
-top: 2072px;
+    max-width: 535px;
+    height: 521px;
+    left: 144px;
+    top: 2072px;
 }
 
 .text-rightside{
-    width: 486px;
-    height: 531px;
-    left: 145px;
-    top: 1423px;
-    text-align: center;    
-
+    max-width: 486px;
+    height: 427px;
+    padding-left: 70px; 
+    padding-top: 50px;
 }
 
 .marketers{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-
+    align-items: center;
 }
 
 .marketersText{
-
+    max-width: 518px;
+    padding: 150px;
 }
 
 .markatersImg{
-
+    margin-right: 200px;
 }
 
 .footer{
     display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 100px;
-  border-top: 2px solid;
-  border-color: #BCD0E5;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    border-top: 2px solid;
+    border-color: #BCD0E5;
 }
 
 .footerlogo{
     padding-bottom: 30px;
     padding-left: 50px;
-    
 }
 
 .footerinfo {
-padding-top: 120px;
+   padding-top: 150px;
 }
+
 .footerinfo1{
-    padding-top: 160px;
-
+    padding-top: 150px;
 }
-
 
 .input-btn{
     display: flex;
     flex-direction: column;
     padding-right: 160px;
     padding-top: 160px;
+    margin: 50px;
+}
 
+.input{
+   width: 325px;
+   height: 48px;
+   background: #FFFFFF;
+   border: 1px solid #BCD0E5;
+   border-radius: 4px;
+}
+
+.footerbtn{
+   background: #FF9900;
+   border: 1px solid #FF9900;
+   border-radius: 4px;
+   width: 131px;
+   height: 39px;
+   margin: 20px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 10px;
+   text-align: center;
+   color: #FFFFFF;
+   border-color: #FF9900;
+   text-shadow: none;
 }
